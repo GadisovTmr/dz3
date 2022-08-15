@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая принимает на вход пятизначное число иа проверяет, является ли оно палиндромом.
+Console.WriteLine ("Введите пятизначное число");
+int n = int.Parse(Console.ReadLine());
+
+if (n%10 == n/10000 && (n/1000)%10 == (n/10)%10)
+{
+    Console.WriteLine ("Палиндром");
+}
+else
+{
+    Console.WriteLine ("Не палиндром");
+}
