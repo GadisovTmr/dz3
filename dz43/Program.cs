@@ -17,4 +17,4 @@ matrix[1, 1] = int.Parse(Console.ReadLine());
 
 int crosspoint = (matrix[1, 0] - matrix[0, 0]) / (matrix[1, 1] - matrix[0, 1]);
 
-Console.WriteLine($"Точка пересечения  {crosspoint} ; {matrix[0, 1] * crosspoint + matrix[0, 0]}");
+Console.WriteLine($"Точка пересечения  {crosspoint} ; {matrix[0, 1] * crosspoint + matrix[0, 0]}"); 
